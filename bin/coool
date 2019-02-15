@@ -4,7 +4,7 @@
 # Reports broken hyperlinks in documents
 #
 # About page: http://bootlin.com/community/tools/utils/coool/
-# Downloads page: http://git.bootlin.com/training-scripts/
+# Downloads page: https://github.com/bootlin/odf-tools
 #
 # Copyright (C) 2005-2012 Bootlin
 # Author: Michael Opdenacker <michael at bootlin com>

@@ -1,0 +1,24 @@
+odf-tools: A collection of tools to manipulate, check and convert ODF (LibreOffice/OpenOffice) documents
+
+- bin/coool:
+  Checks OpenOffice.Org Links
+  Reports broken hyperlinks in documents
+  About page: http://bootlin.com/community/tools/utils/coool/
+
+- bin/odf2latex:
+  Utility to extract text data from an ODF document (typically
+  odt and odp), and put it in a LaTeX document.
+  Do not expect a complete and fully automated translation
+  This script will just help people converting documents from ODF to LaTeX
+  You will have to complete the conversion manually
+
+- bin/odf2pdf:
+  Convert the specified ODF document to PDF
+  unoconv and OOo are buggy tools. That's why we need this wrapper
+
+- bin/odf-replace:
+  Substitutes all occurrences of a string by another in the given ODF document
+
+- bin/ootoc:
+  Generates a Table of Contents from a series of OpenOffice/LibreOffice
+  Impress documents.
